@@ -1,0 +1,20 @@
+{                                                    
+    "name": "My Web App",                              "comment":"// The full name of your app",
+    "short_name": "IOSApp",                             "comment":   "// A shorter version of the name, used in places where space is limited"
+    "start_url": "/Calculator/index.html",               "comment": "// The page to open when your app is launched"
+    "display": "standalone",                          "comment":   "// Defines how the app will be displayed (e.g., standalone means no browser UI)"
+    "background_color": "#ffffff",                    "comment":  "// The background color of your splash screen (when the app is loading)"
+    "theme_color": "#007bff",                       "comment":   "// The color of the browser's toolbar (for mobile devices)"
+    "icons": [                                     "comment":   "// The icons displayed on the home screen or app launcher"
+      {
+        "src": "ios-icon.png",                      "comment": "// Path to the icon"
+        "sizes": "192x192",                       "comment":  "// Size of the icon"
+        "type": "image/png"                      "comment":  "// Type of the image (PNG format)"
+      },
+      {
+        "src": "ios-icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
